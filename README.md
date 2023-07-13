@@ -1,7 +1,7 @@
 
-We recreated a minimal example the [`tokenvm`](https://github.com/ava-labs/hypersdk/tree/main/examples/tokenvm)
 
-## Demos
+
+## Demo
 The first step to running these demos is to launch your own `tokenvm` Subnet. You
 can do so by running the following command from this location (may take a few
 minutes):
@@ -43,20 +43,6 @@ command from this location:
 ./build/token-cli action create-asset
 ```
 
-When you are done, the output should look something like this:
-```
-database: .token-cli
-address: token1rvzhmceq997zntgvravfagsks6w0ryud3rylh4cdvayry0dl97nsjzf3yp
-chainID: Em2pZtHr7rDCzii43an2bBi1M2mTFyLN33QP1Xfjy7BcWtaH9
-metadata (can be changed later): MarioCoin
-continue (y/n): y
-✅ txID: 27grFs9vE2YP9kwLM5hQJGLDvqEY9ii71zzdoRHNGC4Appavug
-```
-
-_`txID` is the `assetID` of your new asset._
-
-The "loaded address" here is the address of the default private key (`demo.pk`). We
-use this key to authenticate all interactions with the `tokenvm`.
 
 #### Step 2: Mint Your Asset
 After we've created our own asset, we can now mint some of it. You can do so by
@@ -86,15 +72,6 @@ so by running the following command from this location:
 ./build/token-cli key balance
 ```
 
-When you are done, the output should look something like this:
-```
-database: .token-cli
-address: token1rvzhmceq997zntgvravfagsks6w0ryud3rylh4cdvayry0dl97nsjzf3yp
-chainID: Em2pZtHr7rDCzii43an2bBi1M2mTFyLN33QP1Xfjy7BcWtaH9
-assetID (use TKN for native token): 27grFs9vE2YP9kwLM5hQJGLDvqEY9ii71zzdoRHNGC4Appavug
-metadata: MarioCoin supply: 10000 warp: false
-balance: 10000 27grFs9vE2YP9kwLM5hQJGLDvqEY9ii71zzdoRHNGC4Appavug
-```
 
 <br>
 <br>
