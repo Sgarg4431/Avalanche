@@ -73,9 +73,4 @@ so by running the following command from this location:
 ```
 
 
-<br>
-<br>
-<br>
-<p align="center">
-  <a href="https://github.com/ava-labs/hypersdk"><img width="40%" alt="tokenvm" src="https://github.com/ava-labs/hypersdk/blob/main/examples/tokenvm/assets/hypersdk.png"></a>
-</p>
+
